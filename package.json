@@ -1,15 +1,20 @@
 {
   "name": "clean-node-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "typescript api with clean code",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "test:staged": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "th3g00dc0d3r",
   "license": "ISC",
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/th3g00dc0d3r/clean-code-api.git"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.3.2",
@@ -18,7 +23,7 @@
     "eslint-config-standard-with-typescript": "^20.0.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-promise": "^5.1.0",
     "git-commit-msg-linter": "^3.2.6",
     "husky": "^7.0.1",
     "jest": "^27.0.6",
